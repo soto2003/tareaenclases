@@ -1,0 +1,10 @@
+﻿  Song.cpp
+  tareaenclases.cpp
+  Tracker.cpp
+  TrackSong.cpp
+D:\MOLINA SIS-457\tareaenclases\tareaenclases\Tracker.cpp(17,23): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+D:\MOLINA SIS-457\tareaenclases\tareaenclases\Tracker.cpp(20,12): warning C4244: 'return': conversión de 'int' a 'float'; posible pérdida de datos
+D:\MOLINA SIS-457\tareaenclases\tareaenclases\Tracker.cpp(46,12): warning C4244: 'return': conversión de 'int' a 'float'; posible pérdida de datos
+D:\MOLINA SIS-457\tareaenclases\tareaenclases\TrackSong.cpp(18,26): warning C4244: 'return': conversión de 'int' a 'float'; posible pérdida de datos
+  Generando código...
+  tareaenclases.vcxproj -> D:\MOLINA SIS-457\tareaenclases\x64\Debug\tareaenclases.exe
