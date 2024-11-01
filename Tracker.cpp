@@ -92,19 +92,17 @@ void Tracker::printHistoricalwithReate(int reat)
 
 void Tracker::printBarPercent()
 {
-    // Imprime en barras el total de la canción reproducida
-    int tdT = trackedSong.ToSec();
+    // Imprime en barras el total de la canciÃ³n reproducida
     for (int i = 0; i < historicalTrack.size(); i++)
     {
-        int trackTimeS = historicalTrack[i].playMin * 60 + historicalTrack[i].playSec;
-        int percent = trackTimeS * 100 / tdT;
-        int bars = percent / 10;
+    int percent = historicalTrack[i].getRaetingPorcent(trackedSong);
+    int bars = percent / 10;
 
-        cout << "Historial " << i << " -> ";
-        for (int j = 0; j < bars; j++)
-        {
-            cout << "|";
-        }
-        cout << "->" << percent << "%" << endl;
+    cout << "Historial " << i << " -> ";
+    for (int j = 0; j < bars; j++)
+    {
+        cout << "|";
     }
+    cout << "->" << percent << "%" << endl;
+   }
 }
